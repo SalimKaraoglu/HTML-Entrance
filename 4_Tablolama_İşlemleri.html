@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>
+        Sayfa üzerinde bir takım verileri tablo formatında göstermek için sunuklan element "table" elementidir. Temel
+        olarak üç şey vardır. "tr" "td" "th"
+    </p>
+    <p>
+        TD(table-data) => kolon bilgisini TH(table-header) => başlık bilgisini TR(table-row) => ise satır bilgisini
+        temsil eder.
+    </p>
+    <hr>
+    <p>
+        Bazı Özellikleri:
+        <ur>
+            <li>Width => Tablonun genişliğini verir</li>
+            <li>Border => Tablonun içi ve dış çerçeveleri için bir boyut verir</li>
+            <li>Cellspacıng => Hücrelerin birbirlerine olan uzaklıklarını verir</li>
+            <li>Cellpeding => Hücre içerisindeki değerlerin dış çerçeveye olan uzaklıklarını verir</li>
+            <li>Colspan => Hücrelerin merge edilmesini sağlayan öz nitelik(attibute) vermiş olduğumuz iki değerin iki
+                sütunmuş gibi davranmasını sağlar</li>
+            <li>Rowspan => Satırların merge edilmesini sağlar</li>
+        </ur>
+    </p>
+    <hr>
+    <table border="3" width="100%" cellspacing="5" cellpading="5">
+        <thead>
+            <tr>
+                <th> AD </th>
+                <th> SOYAD </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">
+                    <center>
+                        <strong>
+                            Bu Tablo İçerisinde Sınıf Mevcudu Yer Almaktadır.
+                        </strong>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td>Sina Emre</td>
+                <td>BEKAR</td>
+            </tr>
+            <tr>
+                <td>Ahmet</td>
+                <td>YILDIZ</td>
+            </tr>
+            <tr>
+                <td>Ali</td>
+                <td>VELİ</td>
+            </tr>
+            <tr>
+                <td>Erhan</td>
+                <td>ÖLÇEK</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

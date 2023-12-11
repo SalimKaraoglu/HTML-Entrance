@@ -1,0 +1,6 @@
+{
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": true,
+    "files.autoGuessEncoding": true,
+    "workbench.editor.centeredLayoutFixedWidth": true
+}
